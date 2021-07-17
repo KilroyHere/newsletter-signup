@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Succesfully Subscribed</title>
+    
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/successFailure.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Favicons -->
+
+  </head>
+  <body>
+    
+<main>
+  <div class="container py-4">
+
+
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Uh Oh! 😓</h1>
+        <p class="col-md-8 fs-4">There was a problem signing you up. Please try again or contact the developer!</p>
+        <form action="/failure" method="POST">
+            <button class="btn btn-warning btn-lg" type="submit">
+             Try Again
+            </button>
+        </form>
+      </div>
+    </div>
+
+
+    <footer class="footer fixed-bottom py-2 bg-light">
+        <div class="text-center container">
+          <span class="text-muted">&copy;John Doe 2021</span>
+        </div>
+      </footer>     
+
+  </div>
+</main>
+
+
+    
+  </body>
+</html>

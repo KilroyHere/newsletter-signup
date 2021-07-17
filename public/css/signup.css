@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
+h1#emailEmoji{
+  font-size: 6rem !important;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 20rem;
+  margin: auto;
+}
+
+input{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
