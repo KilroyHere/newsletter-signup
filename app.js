@@ -27,12 +27,12 @@ app.post("/",function(req,res){
     };
     const jsonData = JSON.stringify(data);
     const listId = process.env.LIST_ID;
-    const ApiKey = process.env.API_KEY;
+    const apiKey = process.env.API_KEY;
     const serverNumber = process.env.SERVER_NUMBER;
     const url = `https://us${serverNumber}.api.mailchimp.com/3.0/lists/${listId}`;
     const options = {
         method: "POST",
-        auth: `johnDoe:${ApiKey}`
+        auth: `johnDoe:${apiKey}`
     };
 
     const request = https.request(url,options,function(response){
